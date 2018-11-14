@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "javaType": "nl.seiferd.afasfiledownloader.model.Config",
+  "properties": {
+    "abboId": {
+      "type": "string"
+    },
+    "connectorName": {
+      "type": "string"
+    },
+    "tokenBase64": {
+      "type": "string"
+    },
+    "outputDirectory": {
+      "type": "string"
+    },
+    "nrOfItems": {
+      "type": "integer",
+      "default": 0
+    },
+    "itemsToTake": {
+      "type": "integer",
+      "default": 0
+    },
+    "startingPoint": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "additionalProperties": false
+}

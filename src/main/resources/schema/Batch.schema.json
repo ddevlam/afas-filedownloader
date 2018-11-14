@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "javaType": "nl.seiferd.afasfiledownloader.model.Batch",
+  "properties": {
+    "rows": {
+      "type" : "array",
+      "items": {
+        "$ref": "Row.schema.json"
+      }
+    }
+  },
+  "additionalProperties": false
+}
